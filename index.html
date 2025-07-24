@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - José Malca</title>
+
+
+    <!--Preload-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="header">
+  <div class="contenedor header__contenido">
+    <nav class="header__nav">
+      <ul class="menu">
+        <li><a href="#sobre-mi"><span>01.</span> Sobre Mí</a></li>
+        <li><a href="#experiencia"><span>02.</span> Experiencia</a></li>
+        <li><a href="#proyectos"><span>03.</span> Proyectos</a></li>
+        <li><a href="#contacto"><span>04.</span> Contacto</a></li>
+      </ul>
+      <a class="boton boton--outline" href="Ingeniero Informatico Malca CV.pdf" download target="_blank">CV</a>
+    </nav>
+  </div>
+</header>
+
+
+
+ <section class="hero">
+    <div class="contenedor hero__contenido">
+      <p class="intro">Hola, mi nombre es</p>
+      <h1 class="nombre">José Malca.</h1>
+      <h2 class="subtitulo">Construyo soluciones para la web.</h2>
+      <p class="descripcion">
+        Soy un desarrollador enfocado en crear experiencias digitales modernas y accesibles.
+        Actualmente estoy aprendiendo tecnologías frontend y backend para desarrollar productos centrados en el usuario.
+      </p>
+    </div>
+  </section>
+
+
+    <main class="contenedor">
+        <section id="sobre-mi" class="seccion">
+            <h2 class="seccion-titulo"><span>01.</span> Sobre Mí <span class="linea"></span></h2>
+            <p class="sobre-mi__contenido">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed dolor et lacus consectetur ultrices non at diam. Etiam ac elementum tellus, sed viverra purus. Nunc euismod felis arcu, vitae interdum nisl mattis in. Morbi in euismod arcu, vitae consequat risus. Fusce nisi est, pellentesque ac facilisis ut, pharetra nec massa. Suspendisse rutrum eros massa, porta sodales justo suscipit sit amet. Morbi venenatis lorem eu consequat rhoncus. Praesent in euismod nibh. Phasellus placerat quam et lacus fringilla volutpat. Integer leo nibh, convallis ut magna ut, tempus commodo diam. Sed pellentesque nibh felis, ac sodales nunc venenatis ut. Curabitur diam lectus, sollicitudin a porta eget, eleifend quis leo. Etiam luctus, velit in gravida feugiat, mi sapien pretium est, accumsan dapibus tortor metus nec odio.</p>
+        </section>
+
+<section id="experiencia" class="seccion">
+    <h2 class="seccion-titulo"><span>02.</span> Experiencia <span class="linea"></span></h2>
+    
+    <div class="experiencia">
+        <div class="experiencia__contenido">
+            <div class="experiencia__empresas">
+                <div class="empresa__item activo" data-empresa="utemtx">Utem-Tx</div>
+                <div class="empresa__item" data-empresa="bobia">Bob-Ia</div>
+                <div class="empresa__item" data-empresa="goplicity">Goplicity Spa</div>
+            </div>
+            
+            <div class="experiencia__detalles">
+                <h3 class="puesto">Lead Engineer <span class="empresa">@ UtemTx</span></h3>
+                <p class="fecha">May 2018 - Present</p>
+                
+                <ul class="responsabilidades">
+                    <li>Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more</li>
+                    <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
+                    <li>Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders</li>
+                    <li>Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos" class="seccion">
+    <h2 class="seccion-titulo"><span>03.</span> Proyectos <span class="linea"></span></h2>
+    
+    <div class="proyectos">
+        <div class="proyectos__grid">
+            
+            <!-- Proyecto 1 -->
+            <div class="proyecto">
+                <div class="proyecto__header">
+                    <div class="proyecto__icono">📁</div>
+                    <div class="proyecto__enlaces">
+                        <a href="https://github.com/JoseMalcaR/Festival-Musica" class="proyecto__enlace" target="_blank" title="Ver código en GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://hilarious-sawine-40140f.netlify.app" class="proyecto__enlace" target="_blank" title="Ver proyecto en vivo">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <h3 class="proyecto__titulo">Festival-Musica</h3>
+                <p class="proyecto__descripcion">
+                    Proyecto parte del curso de Desarrollo Web(Udemy) donde se crea una web para un festival de música.
+                </p>
+                
+                <div class="proyecto__tecnologias">
+                    <span class="tecnologia">HTML</span>
+                    <span class="tecnologia">SASS</span>
+                    <span class="tecnologia">JavaScript</span>
+                </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="proyecto">
+                <div class="proyecto__header">
+                    <div class="proyecto__icono">📁</div>
+                    <div class="proyecto__enlaces">
+                        <a href="https://github.com/JoseMalcaR/Blog-Cafe" class="proyecto__enlace" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://inquisitive-cat-cd7d8a.netlify.app" class="proyecto__enlace" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <h3 class="proyecto__titulo">Blog-Cafe</h3>
+                <p class="proyecto__descripcion">
+                    Proyecto parte del curso de Desarrollo Web(Udemy) donde se crea un blog para una cafetería.
+                    Incluye un formulario de contacto.
+                </p>
+                
+                <div class="proyecto__tecnologias">
+                    <span class="tecnologia">HTML</span>
+                    <span class="tecnologia">CSS</span>
+                </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="proyecto">
+                <div class="proyecto__header">
+                    <div class="proyecto__icono">📁</div>
+                    <div class="proyecto__enlaces">
+                        <a href="https://github.com/tu-usuario/proyecto3" class="proyecto__enlace" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://tu-proyecto3.netlify.app" class="proyecto__enlace" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <h3 class="proyecto__titulo">Bienes-Raices</h3>
+                <p class="proyecto__descripcion">
+                    Coming soon...
+                    Este proyecto está en desarrollo y pronto estará disponible.
+                </p>
+                
+                <div class="proyecto__tecnologias">
+                    <span class="tecnologia"></span>
+                </div>
+            </div>
+
+                        <!-- Proyecto 4 -->
+            <div class="proyecto">
+                <div class="proyecto__header">
+                    <div class="proyecto__icono">📁</div>
+                    <div class="proyecto__enlaces">
+                        <a href="https://github.com/tu-usuario/proyecto3" class="proyecto__enlace" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://tu-proyecto3.netlify.app" class="proyecto__enlace" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <h3 class="proyecto__titulo">APPSALON</h3>
+                <p class="proyecto__descripcion">
+                    Coming soon...
+                    Este proyecto está en desarrollo y pronto estará disponible.
+                </p>
+                
+                <div class="proyecto__tecnologias">
+                    <span class="tecnologia"></span>
+                </div>
+            </div>
+
+                        <!-- Proyecto 5 -->
+            <div class="proyecto">
+                <div class="proyecto__header">
+                    <div class="proyecto__icono">📁</div>
+                    <div class="proyecto__enlaces">
+                        <a href="https://github.com/tu-usuario/proyecto3" class="proyecto__enlace" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://tu-proyecto3.netlify.app" class="proyecto__enlace" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <h3 class="proyecto__titulo">UpTask</h3>
+                <p class="proyecto__descripcion">
+                    Coming soon...
+                    Este proyecto está en desarrollo y pronto estará disponible.
+                </p>
+                
+                <div class="proyecto__tecnologias">
+                    <span class="tecnologia"></span>
+                </div>
+            </div>
+
+
+                        <!-- Proyecto 6 -->
+            <div class="proyecto">
+                <div class="proyecto__header">
+                    <div class="proyecto__icono">📁</div>
+                    <div class="proyecto__enlaces">
+                        <a href="https://github.com/tu-usuario/proyecto3" class="proyecto__enlace" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://tu-proyecto3.netlify.app" class="proyecto__enlace" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <h3 class="proyecto__titulo">DevWebCamp</h3>
+                <p class="proyecto__descripcion">
+                    Coming soon...
+                    Este proyecto está en desarrollo y pronto estará disponible.
+                </p>
+                
+                <div class="proyecto__tecnologias">
+                    <span class="tecnologia"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="seccion">
+    <h2 class="seccion-titulo"><span>04.</span> Contacto <span class="linea"></span></h2>
+    
+    <div class="contacto">
+        <div class="contacto__contenido">
+            <p class="contacto__texto">
+                Puedes contactarme con lo siguiente:
+            </p>
+            
+            <div class="contacto__enlaces">
+                <a href="mailto:joseb.malca@gmail.com" class="contacto__enlace">
+                    <div class="contacto__icono">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </div>
+                    <div class="contacto__info">
+                        <span class="contacto__label">Email</span>
+                        <span class="contacto__valor">joseb.malca@gmail.com</span>
+                    </div>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/jose-malca/" target="_blank" class="contacto__enlace">
+                    <div class="contacto__icono">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </div>
+                    <div class="contacto__info">
+                        <span class="contacto__label">LinkedIn</span>
+                        <span class="contacto__valor">Jose Malca</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <p class="centrar-texto" style="color: var(--acento);">© 2025 José Malca. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="js/header.js"></script>
+    <script src="js/experiencia.js"></script>
+</body>
+</html>
