@@ -295,6 +295,28 @@ h1, h2 {
     padding: 6rem 2rem;
 }
 
+.proyectos__categoria {
+    margin-bottom: 5rem;
+}
+
+.categoria__titulo {
+    font-size: 2.4rem;
+    color: var(--azul-claro);
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.categoria__titulo::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: var(--acento);
+    margin: 1rem auto;
+    border-radius: 2px;
+}
+
 .proyectos__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
